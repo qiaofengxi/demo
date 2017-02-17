@@ -1,0 +1,196 @@
+.bigbanner{
+    position: relative;
+}
+.bigbanner a{
+    width:100%;
+    height:603px;
+    position: absolute;
+    background: url(../images/3/banner.jpg) no-repeat top center;
+}
+.main{
+    position: relative;
+}
+.main .slider{
+    margin-left:220px;
+    width:730px;
+    height:454px;
+    margin-top: 12px;
+    float: left;
+    position: relative;
+
+
+
+}
+.slider .circle{
+    position: absolute;
+    bottom: 9px;
+    left:50%;
+    margin-left: -66px;
+
+
+}
+.slider .circle li{
+    width:18px;
+    height:18px;
+    float: left;
+    background-color: #3E3E3E;
+    text-align: center;
+    line-height:18px;
+    border-radius: 50%;
+    margin:0 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.circle li.current{
+    background-color: #B61B1F;
+}
+.arrow .arrow_l,
+.arrow .arrow_r {
+    height:62px;
+    width:28px;
+    position: absolute;
+    top:50%;
+    font:bold 18px/62px "宋体";
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+}
+.arrow .arrow_l{
+    left:0;
+}
+.arrow .arrow_r{
+    right:0;
+}
+.arrow_l:hover,.arrow_r:hover{
+    background: rgba(0,0,0,.4);
+
+}
+.main .newspaper{
+    width:248px;
+    height:451px;
+    border:1px solid #E4E4E4;
+    margin-top: 12px;
+    float: right;
+
+}
+.newspaper .cnews{
+    height:200px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.cnews .dt,
+.lifeserver .dt{
+    height:43px;
+    line-height:43px;
+    border-bottom:1px dotted #E8E8E7;
+}
+.cnews .dt h3,
+.lifeserver .dt h3{
+    font:14px/43px "微软雅黑";
+    float: left;
+    margin-left:15px;
+}
+.cnews .dt a{
+    float: right;
+    font:12px/43px "宋体";
+    margin-right: 15px;
+}
+.cnews .dd ul{
+    padding:8px 0 0 15px;
+}
+.cnews .dd ul li{
+    line-height:28px;
+
+}
+.cnews .dd li span{
+    font-weight:bold;
+    margin-right: 5px;
+}
+.lifeserver .dd{
+    width:248px;
+    overflow: hidden;
+}
+.lifeserver ul{
+    width:252px;
+
+}
+.lifeserver li{
+    width:62px;
+    height:62px;
+    border:1px solid #E4E4E4;
+    float: left;
+    margin: -1px 0 0 -1px;
+}
+.lifeserver a{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    height:70px;
+    position: relative;
+}
+.lifeserver i{
+    position: absolute;
+    top:10px;
+    left:18px;
+    width:25px;
+    height:25px;
+    background: url(../images/3/icon_lifeserv.png) no-repeat right top;
+}
+.lifeserver .life_icon2{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -25px;
+}
+.lifeserver .life_icon3{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -50px;
+}
+.lifeserver .life_icon4{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -75px;
+}
+.lifeserver .life_icon5{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -100px;
+}
+.lifeserver .life_icon6{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -125px;
+}
+.lifeserver .life_icon7{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -150px;
+}
+.lifeserver .life_icon8{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -175px;
+}
+.lifeserver .life_icon9{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -200px;
+}
+.lifeserver .life_icon10{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -225px;
+}
+.lifeserver .life_icon11{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -250px;
+}
+.lifeserver .life_icon12{
+    background: url(../images/3/icon_lifeserv.png) no-repeat right -275px;
+}
+.lifeserver .gave{
+    background: url(../images/3/song.png) no-repeat right top;
+}
+/*banner结束*/
+/*双十一活动模块开始*/
+.eleven{
+    position: relative;
+
+}
+.eleven .night{
+    margin:10px 0;
+
+}
+.eleven .night_l {
+    float: left;
+}
+.eleven .night_r ul{
+    width:500%;
+}
+.eleven .night_r li{
+    float: left;
+    margin-left: 1px;
+
+}
+/*双十一活动模块结束*/
+
