@@ -2,7 +2,7 @@
 
 body {
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* 柔和的背景光晕 */
