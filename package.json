@@ -1,0 +1,17 @@
+{
+  "name": "jindong-demo",
+  "version": "1.0.0",
+  "description": "京东首页静态",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwindcss -i ./css/tailwind-input.css -o ./css/tailwind.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
