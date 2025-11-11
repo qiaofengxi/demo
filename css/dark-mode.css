@@ -5,45 +5,45 @@
 
 /* CSS 变量定义 */
 :root {
-    /* 背景色 */
-    --dark-bg-primary: #1a1a1a;
-    --dark-bg-secondary: #2a2a2a;
-    --dark-bg-tertiary: #3a3a3a;
-    --dark-bg-accent: #3a1a5a;
-    --dark-bg-red-dark: #6a0a0a;
-    --dark-bg-red: #8a1a1a;
+  /* 背景色 */
+  --dark-bg-primary: #1a1a1a;
+  --dark-bg-secondary: #2a2a2a;
+  --dark-bg-tertiary: #3a3a3a;
+  --dark-bg-accent: #3a1a5a;
+  --dark-bg-red-dark: #6a0a0a;
+  --dark-bg-red: #8a1a1a;
 
-    /* 文字颜色 */
-    --dark-text-primary: #e0e0e0;
-    --dark-text-secondary: #b0b0b0;
-    --dark-text-muted: #808080;
+  /* 文字颜色 */
+  --dark-text-primary: #e0e0e0;
+  --dark-text-secondary: #b0b0b0;
+  --dark-text-muted: #808080;
 
-    /* 强调色 */
-    --dark-accent-red: #ff6b6b;
-    --dark-accent-bright-red: #ff4444;
-    --dark-accent-hover-red: #aa2a2a;
+  /* 强调色 */
+  --dark-accent-red: #ff6b6b;
+  --dark-accent-bright-red: #ff4444;
+  --dark-accent-hover-red: #aa2a2a;
 
-    /* 边框颜色 */
-    --dark-border-color: #444;
+  /* 边框颜色 */
+  --dark-border-color: #444;
 
-    /* 遮罩 */
-    --dark-overlay: rgba(0, 0, 0, 0.6);
-    --dark-overlay-strong: rgba(0, 0, 0, 0.8);
+  /* 遮罩 */
+  --dark-overlay: rgba(0, 0, 0, 0.6);
+  --dark-overlay-strong: rgba(0, 0, 0, 0.8);
 }
 
 /* 响应系统暗黑模式偏好 */
 @media (prefers-color-scheme: dark) {
-    body:not(.light-mode) {
-        background: var(--dark-bg-primary);
-        color: var(--dark-text-primary);
-    }
+  body:not(.light-mode) {
+    background: var(--dark-bg-primary);
+    color: var(--dark-text-primary);
+  }
 }
 
 /* 暗黑模式主体样式 */
 body.dark-mode {
-    background: var(--dark-bg-primary);
-    color: var(--dark-text-primary);
-    transition: background-color 0.3s ease, color 0.3s ease;
+  background: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* ============================================
@@ -52,12 +52,12 @@ body.dark-mode {
 
 /* 链接 */
 body.dark-mode a {
-    color: var(--dark-text-secondary);
-    transition: color 0.3s ease;
+  color: var(--dark-text-secondary);
+  transition: color 0.3s ease;
 }
 
 body.dark-mode a:hover {
-    color: var(--dark-accent-red);
+  color: var(--dark-accent-red);
 }
 
 /* ============================================
@@ -65,20 +65,20 @@ body.dark-mode a:hover {
    ============================================ */
 
 body.dark-mode .header {
-    background: var(--dark-bg-secondary);
-    transition: background-color 0.3s ease;
+  background: var(--dark-bg-secondary);
+  transition: background-color 0.3s ease;
 }
 
 body.dark-mode .header .fl div {
-    color: var(--dark-text-primary);
+  color: var(--dark-text-primary);
 }
 
 body.dark-mode .header .fr a {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .header .fr .line {
-    background-color: var(--dark-border-color);
+  background-color: var(--dark-border-color);
 }
 
 /* ============================================
@@ -86,8 +86,8 @@ body.dark-mode .header .fr .line {
    ============================================ */
 
 body.dark-mode .banner {
-    background: var(--dark-bg-accent);
-    transition: background-color 0.3s ease;
+  background: var(--dark-bg-accent);
+  transition: background-color 0.3s ease;
 }
 
 /* ============================================
@@ -95,20 +95,21 @@ body.dark-mode .banner {
    ============================================ */
 
 body.dark-mode .search input {
-    background: var(--dark-bg-secondary);
-    color: var(--dark-text-primary);
-    border-color: var(--dark-bg-red);
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  background: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
+  border-color: var(--dark-bg-red);
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 body.dark-mode .search button {
-    background-color: var(--dark-bg-red);
-    color: var(--dark-text-primary);
-    transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--dark-bg-red);
+  color: var(--dark-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-mode .search button:hover {
-    background-color: var(--dark-accent-hover-red);
+  background-color: var(--dark-accent-hover-red);
 }
 
 /* ============================================
@@ -116,13 +117,13 @@ body.dark-mode .search button:hover {
    ============================================ */
 
 body.dark-mode .car {
-    background: var(--dark-bg-secondary);
-    border-color: var(--dark-border-color);
-    color: var(--dark-text-primary);
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border-color);
+  color: var(--dark-text-primary);
 }
 
 body.dark-mode .icon3 {
-    background-color: var(--dark-accent-bright-red);
+  background-color: var(--dark-accent-bright-red);
 }
 
 /* ============================================
@@ -130,11 +131,11 @@ body.dark-mode .icon3 {
    ============================================ */
 
 body.dark-mode .hotwords a {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .hotwords .col-red {
-    color: var(--dark-accent-red);
+  color: var(--dark-accent-red);
 }
 
 /* ============================================
@@ -142,31 +143,31 @@ body.dark-mode .hotwords .col-red {
    ============================================ */
 
 body.dark-mode .nav {
-    border-bottom-color: var(--dark-bg-red);
+  border-bottom-color: var(--dark-bg-red);
 }
 
 body.dark-mode .nav .dropdown {
-    background-color: var(--dark-bg-red);
+  background-color: var(--dark-bg-red);
 }
 
 body.dark-mode .dropdown .dt {
-    background-color: var(--dark-bg-red);
+  background-color: var(--dark-bg-red);
 }
 
 body.dark-mode .dropdown .dd {
-    background-color: var(--dark-bg-red-dark);
+  background-color: var(--dark-bg-red-dark);
 }
 
 body.dark-mode .dropdown .dd .items {
-    border-color: var(--dark-bg-red);
+  border-color: var(--dark-bg-red);
 }
 
 body.dark-mode .navitem a {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .navitem a:hover {
-    color: var(--dark-accent-red);
+  color: var(--dark-accent-red);
 }
 
 /* ============================================
@@ -174,35 +175,35 @@ body.dark-mode .navitem a:hover {
    ============================================ */
 
 body.dark-mode .bigbanner a {
-    will-change: filter;
-    filter: brightness(0.7);
+  will-change: filter;
+  filter: brightness(0.7);
 }
 
 body.dark-mode .slider img {
-    will-change: filter;
-    filter: brightness(0.8);
+  will-change: filter;
+  filter: brightness(0.8);
 }
 
 body.dark-mode .slider .circle li {
-    background-color: #4a4a4a;
-    color: var(--dark-text-primary);
-    transition: background-color 0.3s ease;
+  background-color: #4a4a4a;
+  color: var(--dark-text-primary);
+  transition: background-color 0.3s ease;
 }
 
 body.dark-mode .circle li.current {
-    background-color: var(--dark-bg-red);
+  background-color: var(--dark-bg-red);
 }
 
 body.dark-mode .arrow .arrow_l,
 body.dark-mode .arrow .arrow_r {
-    background: var(--dark-overlay);
-    color: var(--dark-text-primary);
-    transition: background-color 0.3s ease;
+  background: var(--dark-overlay);
+  color: var(--dark-text-primary);
+  transition: background-color 0.3s ease;
 }
 
 body.dark-mode .arrow_l:hover,
 body.dark-mode .arrow_r:hover {
-    background: var(--dark-overlay-strong);
+  background: var(--dark-overlay-strong);
 }
 
 /* ============================================
@@ -210,24 +211,24 @@ body.dark-mode .arrow_r:hover {
    ============================================ */
 
 body.dark-mode .newspaper {
-    background: var(--dark-bg-secondary);
-    border-color: var(--dark-border-color);
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border-color);
 }
 
 body.dark-mode .newspaper .cnews {
-    border-bottom-color: var(--dark-border-color);
+  border-bottom-color: var(--dark-border-color);
 }
 
 body.dark-mode .cnews .dt,
 body.dark-mode .lifeserver .dt {
-    border-bottom-color: var(--dark-border-color);
+  border-bottom-color: var(--dark-border-color);
 }
 
 body.dark-mode .cnews .dt h3,
 body.dark-mode .lifeserver .dt h3,
 body.dark-mode .server dt,
 body.dark-mode .server .c_head {
-    color: var(--dark-text-primary);
+  color: var(--dark-text-primary);
 }
 
 body.dark-mode .cnews .dt a,
@@ -235,21 +236,21 @@ body.dark-mode .cnews .dd ul li,
 body.dark-mode .cnews .dd ul li a,
 body.dark-mode .lifeserver a,
 body.dark-mode .server dd a {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .cnews .dd li span {
-    color: var(--dark-accent-red);
+  color: var(--dark-accent-red);
 }
 
 body.dark-mode .lifeserver li {
-    background: var(--dark-bg-secondary);
-    border-color: var(--dark-border-color);
-    transition: background-color 0.3s ease;
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border-color);
+  transition: background-color 0.3s ease;
 }
 
 body.dark-mode .lifeserver li:hover {
-    background: var(--dark-bg-tertiary);
+  background: var(--dark-bg-tertiary);
 }
 
 /* ============================================
@@ -257,8 +258,8 @@ body.dark-mode .lifeserver li:hover {
    ============================================ */
 
 body.dark-mode .eleven img {
-    will-change: filter;
-    filter: brightness(0.8);
+  will-change: filter;
+  filter: brightness(0.8);
 }
 
 /* ============================================
@@ -266,41 +267,41 @@ body.dark-mode .eleven img {
    ============================================ */
 
 body.dark-mode .foot {
-    background: var(--dark-bg-primary);
-    color: var(--dark-text-secondary);
+  background: var(--dark-bg-primary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .foot .slogen {
-    background-color: var(--dark-bg-secondary);
+  background-color: var(--dark-bg-secondary);
 }
 
 body.dark-mode .slogen img {
-    filter: brightness(0.9) invert(0.1);
+  filter: brightness(0.9) invert(0.1);
 }
 
 body.dark-mode .server dl {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .server .coverage {
-    filter: brightness(0.7);
+  filter: brightness(0.7);
 }
 
 body.dark-mode .server .c_content {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .foot .last {
-    border-top-color: var(--dark-border-color);
-    color: var(--dark-text-muted);
+  border-top-color: var(--dark-border-color);
+  color: var(--dark-text-muted);
 }
 
 body.dark-mode .foot .links a {
-    color: var(--dark-text-secondary);
+  color: var(--dark-text-secondary);
 }
 
 body.dark-mode .foot .mess img {
-    filter: brightness(0.9);
+  filter: brightness(0.9);
 }
 
 /* ============================================
@@ -308,15 +309,15 @@ body.dark-mode .foot .mess img {
    ============================================ */
 
 body.dark-mode #mask {
-    background: var(--dark-overlay-strong);
+  background: var(--dark-overlay-strong);
 }
 
 body.dark-mode #box {
-    background-color: var(--dark-bg-secondary);
+  background-color: var(--dark-bg-secondary);
 }
 
 body.dark-mode #box span {
-    color: var(--dark-text-primary);
+  color: var(--dark-text-primary);
 }
 
 /* ============================================
@@ -325,20 +326,21 @@ body.dark-mode #box span {
 
 body.dark-mode input,
 body.dark-mode textarea {
-    background: var(--dark-bg-secondary);
-    color: var(--dark-text-primary);
-    border-color: var(--dark-border-color);
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  background: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
+  border-color: var(--dark-border-color);
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 body.dark-mode button {
-    background: var(--dark-bg-red);
-    color: var(--dark-text-primary);
-    transition: background-color 0.3s ease, color 0.3s ease;
+  background: var(--dark-bg-red);
+  color: var(--dark-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-mode button:hover {
-    background: var(--dark-accent-hover-red);
+  background: var(--dark-accent-hover-red);
 }
 
 /* ============================================
@@ -346,8 +348,8 @@ body.dark-mode button:hover {
    ============================================ */
 
 body.dark-mode table {
-    background: var(--dark-bg-secondary);
-    color: var(--dark-text-primary);
+  background: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
 }
 
 /* ============================================
@@ -355,12 +357,28 @@ body.dark-mode table {
    ============================================ */
 
 body.dark-mode .col-red {
-    color: var(--dark-accent-red);
+  color: var(--dark-accent-red);
 }
 
 /* 优化图片亮度 - 仅对特定图片应用 */
-body.dark-mode img:not(.logo img):not(.life_icon1):not(.life_icon2):not(.life_icon3):not(.life_icon4):not(.life_icon5):not(.life_icon6):not(.life_icon7):not(.life_icon8):not(.life_icon9):not(.life_icon10):not(.life_icon11):not(.life_icon12) {
-    filter: brightness(0.85);
+body.dark-mode img {
+  filter: brightness(0.85);
+}
+
+body.dark-mode .logo img,
+body.dark-mode .life_icon1,
+body.dark-mode .life_icon2,
+body.dark-mode .life_icon3,
+body.dark-mode .life_icon4,
+body.dark-mode .life_icon5,
+body.dark-mode .life_icon6,
+body.dark-mode .life_icon7,
+body.dark-mode .life_icon8,
+body.dark-mode .life_icon9,
+body.dark-mode .life_icon10,
+body.dark-mode .life_icon11,
+body.dark-mode .life_icon12 {
+  filter: none;
 }
 
 /* ============================================
@@ -368,36 +386,36 @@ body.dark-mode img:not(.logo img):not(.life_icon1):not(.life_icon2):not(.life_ic
    ============================================ */
 
 .theme-toggle {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: var(--dark-bg-red);
-    border: 2px solid var(--dark-border-color);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    transition: all 0.3s ease;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--dark-bg-red);
+  border: 2px solid var(--dark-border-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .theme-toggle:hover {
-    transform: scale(1.1);
-    background: var(--dark-accent-hover-red);
+  transform: scale(1.1);
+  background: var(--dark-accent-hover-red);
 }
 
 body:not(.dark-mode) .theme-toggle {
-    background: #fff;
-    border-color: #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-color: #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 body:not(.dark-mode) .theme-toggle:hover {
-    background: #f0f0f0;
-    transform: scale(1.1);
+  background: #f0f0f0;
+  transform: scale(1.1);
 }
