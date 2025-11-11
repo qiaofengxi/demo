@@ -1,0 +1,292 @@
+/* 暗黑模式样式 */
+
+/* 全局背景和文字颜色 */
+body {
+    background: #1a1a1a !important;
+    color: #e0e0e0 !important;
+}
+
+/* 链接颜色 */
+a {
+    color: #b0b0b0 !important;
+}
+
+a:hover {
+    color: #ff6b6b !important;
+}
+
+/* 头部导航栏 */
+.header {
+    background: #2a2a2a !important;
+}
+
+.header .fl div {
+    color: #e0e0e0 !important;
+}
+
+.header .fr a {
+    color: #b0b0b0 !important;
+}
+
+.header .fr .line {
+    background-color: #444 !important;
+}
+
+/* Banner区域 */
+.banner {
+    background: #3a1a5a !important;
+}
+
+/* Logo和搜索区域 */
+.w {
+    background: transparent;
+}
+
+/* 搜索框 */
+.search input {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #8a1a1a !important;
+}
+
+.search button {
+    background-color: #8a1a1a !important;
+    color: #e0e0e0 !important;
+}
+
+/* 购物车 */
+.car {
+    background: #2a2a2a !important;
+    border-color: #444 !important;
+    color: #e0e0e0 !important;
+}
+
+.icon3 {
+    background-color: #ff4444 !important;
+}
+
+/* 热词区域 */
+.hotwords a {
+    color: #b0b0b0 !important;
+}
+
+.hotwords .col-red {
+    color: #ff6b6b !important;
+}
+
+/* 导航栏 */
+.nav {
+    border-bottom-color: #8a1a1a !important;
+}
+
+.nav .dropdown {
+    background-color: #8a1a1a !important;
+}
+
+.dropdown .dt {
+    background-color: #8a1a1a !important;
+}
+
+.dropdown .dd {
+    background-color: #6a0a0a !important;
+}
+
+.dropdown .dd .items {
+    background: transparent;
+    border-color: #8a1a1a !important;
+}
+
+.navitem a {
+    color: #b0b0b0 !important;
+}
+
+.navitem a:hover {
+    color: #ff6b6b !important;
+}
+
+/* 大Banner背景 */
+.bigbanner a {
+    filter: brightness(0.7);
+}
+
+/* 主内容区域 */
+.main {
+    background: transparent;
+}
+
+/* 轮播图 */
+.slider img {
+    filter: brightness(0.8);
+}
+
+.slider .circle li {
+    background-color: #4a4a4a !important;
+    color: #e0e0e0 !important;
+}
+
+.circle li.current {
+    background-color: #8a1a1a !important;
+}
+
+.arrow .arrow_l,
+.arrow .arrow_r {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #e0e0e0 !important;
+}
+
+.arrow_l:hover,
+.arrow_r:hover {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* 京东快报和生活服务 */
+.newspaper {
+    background: #2a2a2a !important;
+    border-color: #444 !important;
+}
+
+.newspaper .cnews {
+    border-bottom-color: #444 !important;
+}
+
+.cnews .dt,
+.lifeserver .dt {
+    border-bottom-color: #444 !important;
+}
+
+.cnews .dt h3,
+.lifeserver .dt h3 {
+    color: #e0e0e0 !important;
+}
+
+.cnews .dt a {
+    color: #b0b0b0 !important;
+}
+
+.cnews .dd ul li {
+    color: #b0b0b0 !important;
+}
+
+.cnews .dd ul li a {
+    color: #b0b0b0 !important;
+}
+
+.cnews .dd li span {
+    color: #ff6b6b !important;
+}
+
+.lifeserver li {
+    background: #2a2a2a !important;
+    border-color: #444 !important;
+}
+
+.lifeserver a {
+    color: #b0b0b0 !important;
+}
+
+.lifeserver li:hover {
+    background: #3a3a3a !important;
+}
+
+/* 双11活动模块 */
+.eleven img {
+    filter: brightness(0.8);
+}
+
+/* 底部区域 */
+.foot {
+    background: #1a1a1a;
+    color: #b0b0b0 !important;
+}
+
+.foot .server {
+    background: transparent;
+}
+
+.foot .slogen {
+    background-color: #2a2a2a !important;
+}
+
+.slogen img {
+    filter: brightness(0.9) invert(0.1);
+}
+
+.server dl {
+    color: #b0b0b0;
+}
+
+.server dt,
+.server .c_head {
+    color: #e0e0e0 !important;
+}
+
+.server dd a {
+    color: #b0b0b0 !important;
+}
+
+.server .coverage {
+    filter: brightness(0.7);
+}
+
+.server .c_content {
+    color: #b0b0b0 !important;
+}
+
+.foot .last {
+    border-top-color: #444 !important;
+    color: #808080 !important;
+}
+
+.foot .links a {
+    color: #b0b0b0 !important;
+}
+
+.foot .mess img {
+    filter: brightness(0.9);
+}
+
+/* 遮罩层 */
+#mask {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+#box {
+    background-color: #2a2a2a !important;
+}
+
+#box span {
+    color: #e0e0e0 !important;
+}
+
+/* 输入框和按钮 */
+input,
+textarea {
+    background: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+button {
+    background: #8a1a1a !important;
+    color: #e0e0e0 !important;
+}
+
+button:hover {
+    background: #aa2a2a !important;
+}
+
+/* 表格和列表 */
+table {
+    background: #2a2a2a;
+    color: #e0e0e0;
+}
+
+/* 特殊红色文字调整 */
+.col-red {
+    color: #ff6b6b !important;
+}
+
+/* 图片整体亮度调整 */
+img {
+    filter: brightness(0.85);
+}
